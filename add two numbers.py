@@ -23,8 +23,3 @@ class Solution:
             if i == len(l1)-1 and c == 1:
                 sL.append(c)
         return sL
-
-
-S=Solution([9,9,9,9,9,9,9],[9,9,9,9])
-
-print S.addTwoNumbers()
